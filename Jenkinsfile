@@ -11,7 +11,8 @@ pipeline {
                 always {
                     
                     sh 'pwd'
-                    sh 'touch /home/duglas/archivoSincronizado'
+                    sh 'touch archivo de un minuto.txt'
+                    
                 }
             }
         }
