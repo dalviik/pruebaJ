@@ -10,7 +10,8 @@ pipeline {
             post {
                 always {
                     
-                    sh 'touch archivoSincronizado'
+                    sh 'pwd'
+                    sh 'touch /home/duglas/archivoSincronizado'
                 }
             }
         }
